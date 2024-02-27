@@ -34,8 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
 
-  deploy-dev:  
-   runs-on: ubuntu-latest
+   deploy-dev:
+     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
       steps:
