@@ -33,5 +33,5 @@ jobs:
     needs: build
     uses: priscylarodrigues/pipeline_templates/.github/workflows/demo-deploy.yml@main
     with:
-      variavel-demo: "Demo dev"
+      variavel_demo: "Demo dev"
       
