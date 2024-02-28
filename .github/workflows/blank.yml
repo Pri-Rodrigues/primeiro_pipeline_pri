@@ -31,7 +31,7 @@ jobs:
    deploy-dev:
     # The type of runner that the job will run on
     needs: build
-    uses: priscylarodrigues/pipeline_templates/.github/workflows/demmo-deploy.yml@main
+    uses: priscylarodrigues/pipeline_templates/.github/workflows/demo-deploy.yml@main
     with:
       variavel-demo: "Demo dev"
       
